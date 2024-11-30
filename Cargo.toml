@@ -1,0 +1,18 @@
+[package]
+name = "aoc{{year}}"
+version = "2024.0.0"
+edition = "2021"
+
+description = "{{description}}"
+authors = [ "{{authors}}" ]
+
+[dependencies]
+itertools = "0.13.0"
+num = "0.4.3"
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "aoc"
+harness = false

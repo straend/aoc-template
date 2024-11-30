@@ -1,0 +1,7 @@
+[template]
+cargo_generate_version = ">=0.9.0"
+
+[placeholders]
+year = { type="string", prompt="AoC Year to generate" }
+
+
